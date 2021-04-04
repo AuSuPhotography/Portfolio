@@ -11,7 +11,7 @@
 </head>
 <body>
     
-    <div class="container-fluid main-1">
+    <div class="container-fluid main-1" id="main1">
         <div class="row portfolio-body">
             <div class="col col-xl-3 left-content">
                 <div class="logo-name">
@@ -19,16 +19,16 @@
                 </div>
                 <div class="side-navbar">
                     <ul class="nav-list">
-                        <li><div class="nav-home"><h6>Home</h6></div></li>
-                        <li><div class="nav-about"><h6>About Us</h6></div></li>
-                        <li><div class="nav-projects"><h6>Project</h6></div></li>
-                        <li><div class="nav-contact"><h6>Contact Us</h6></div></li>
+                        <li><div id= "homeTab" class="nav-home"><h6>Home</h6></div></li>
+                        <li><div id="aboutTab" class="nav-about"><h6>About Us</h6></div></li>
+                        <li><div id="projectTab" class="nav-projects"><h6>Project</h6></div></li>
+                        <li><div id="contactTab" class="nav-contact"><h6>Contact Us</h6></div></li>
                     </ul>
                 </div>
             </div>
-            <div class="col col-xl-9 right-content">
+            <div class="col col-xl-9 main-div right-content">
                 <!-- Home -->
-                <div class="home" id="home">
+                <div class="home" id="homeDiv">
                     <div class="profile">
                         <img src="/img/profile.jpg" alt="">
                     </div>
@@ -42,7 +42,7 @@
                 </div>
 
                 <!-- About Us -->
-                <div class="about-us">
+                <div class="about-us"  id="aboutDiv">
                     <div class="details-text">
                         <h3>WHO AM I</h3>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis ratione repellendus suscipit pariatur, provident cumque quod nihil deserunt in accusamus necessitatibus perferendis temporibus sint aperiam. Dolores, culpa, eum at architecto vitae, dicta mollitia vero odio placeat numquam minima quia quis maiores explicabo quo! Esse, error dolore quo, expedita veniam delectus quas nemo nesciunt quia iste totam maxime maiores porro, veritatis temporibus distinctio officiis. Vero, optio et quia voluptatem eveniet vitae. Tempore pariatur beatae iste dicta officiis culpa. Dolorem iure mollitia repellat aliquid quam. Maxime debitis est reprehenderit illo sint ab. Cumque optio dolorem necessitatibus vel ipsum qui dolor, ratione libero!</p>
@@ -76,10 +76,10 @@
                 </div>
 
                 <!-- Projects -->
-                <div class="projects"></div>
+                <div class="projects" id="projectsDiv"></div>
 
                 <!-- Contact Us -->
-                <div class="contact-us"></div>
+                <div class="contact-us" id="contactDiv"></div>
             </div>
         </div>
         <div class="theme-selector">
@@ -100,11 +100,11 @@
                       <div class="background-theme">
                           <p>Choose Background Theme</p>
                           <div>
-                            <input type="radio" name="Theme" id="Dark" value="Drak" checked>
+                            <input type="radio" name="Theme" id="Dark" value="Drak" onclick="changeTheme();">
                             <label for="Dark">Dark</label>
                           </div>
                           <div>
-                            <input type="radio" name="Theme" id="Light" value="Light">
+                            <input type="radio" name="Theme" id="Light" value="Light"  checked onclick="changeTheme();">
                             <label for="Light">Light</label>
                           </div>
                       </div>
@@ -115,6 +115,7 @@
     </div>
 
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha512-DUC8yqWf7ez3JD1jszxCWSVB0DMP78eOyBpMa5aJki1bIRARykviOuImIczkxlj1KhVSyS16w2FSQetkD4UU2w==" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-</body>
+    <script src="./js/index.js"></script></body>
 </html>
