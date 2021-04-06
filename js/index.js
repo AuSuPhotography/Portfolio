@@ -32,7 +32,7 @@ $("#projectTab").click(()=>{
     $("#"+relation[lastClick]).css({display:"none"})
     $("#projectTab").addClass("active-tab");
 
-    $("#projectDiv").css({display:"block",transform:"translate(0%,0%)"});
+    $("#projectsDiv").css({display:"block",transform:"translate(0%,0%)"});
     lastClick="projectTab";
 });
 
