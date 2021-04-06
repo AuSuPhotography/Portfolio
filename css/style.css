@@ -257,10 +257,10 @@ html, body{
         height: 500px;
     }
     .proj-card{
-        border: 2px solid yellow;
         width: 20%;
-        background-color: rgba(141, 248, 248, 0.822);
+        background-color: rgba(170, 170, 170, 0.822);
         margin-right: 15px;
+        border-radius: 5px;
     }
     .image{
         width: 100%;
@@ -270,6 +270,7 @@ html, body{
     .image>img{
         width: 100%;
         height: 90%;
+        border-radius: 5px;
     }
     .text-content{
         height: 170px;
@@ -286,7 +287,7 @@ html, body{
         height: 80px;
     }
     .button{
-        border: 1px solid gray;
+        border: 1px solid rgb(0, 0, 0);
         border-radius: 5px;
         width: 5vw;
         height: 4vh;
@@ -300,9 +301,61 @@ html, body{
     }
     .button>a{
         text-decoration: none;
-        color: gray;
+        color: rgb(0, 0, 0);
+    }
+    .button>a:hover{
+        color: rgba(100, 19, 19, 0.822);
     }
 
+
+
+    /* Contact */
+    .contact-us{
+        padding: 100px 50px;
+    }
+    .contact-us>h1{
+        font-size: 50px;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 100px;
+    }
+    .address, .phone-no, .email{
+        width: 80%;
+        height: 100px;
+        display: flex;
+        margin-bottom: 50px;
+    }
+    .image-icon{
+        width: 20%;
+        height: 100%;
+        background-color: aqua;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 20px;
+    }
+    .address>.image-icon>img, .phone-no>.image-icon>img, .email>.image-icon>img{
+        width: 50px;
+        height: 50px;
+    }
+    .address>h4, .phone-no>h4, .email>h4{
+        width: 80%;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+    .submit{
+        width: 200px;
+        height: 50px;
+    }
+    .submit>input{
+        width: 100%;
+        height: 100%;
+        border: none;
+        background-color: rgb(0, 38, 255);
+        border-radius: 10px;
+        color: white;
+    }
 
 
 
@@ -360,7 +413,6 @@ html, body{
     transform: translateX(100%);
     transition: transform 0.6s ease;
 }
-
 
 .main-div{
     overflow-x: hidden;
