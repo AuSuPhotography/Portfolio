@@ -1,7 +1,7 @@
 var relation ={
     homeTab:"homeDiv",
     aboutTab:"aboutDiv",
-    projectTab:"projectDiv",
+    projectTab:"projectsDiv",
     contactTab:"contactDiv"
 }
 
