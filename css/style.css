@@ -112,14 +112,14 @@ html, body{
     }
     .btn-resume>a{
         text-decoration: none;
-        color: white;
+        color: rgb(58, 58, 58);
         padding: 20px;
         border-radius: 5px;
         font-family: 'Playfair Display', serif;
         font-size: 15px;
     }
     .btn-resume>a:hover{
-        color: gray;
+        color: rgb(58, 58, 58);
     }
 
 
@@ -343,6 +343,44 @@ html, body{
         display: flex;
         justify-content: left;
         align-items: center;
+    }
+    .uk-legend{
+        width: 100%;
+        font-size: 30px;
+    }
+    .uk-margin{
+        width: 100%;
+        height: 50px;
+        margin-bottom: 20px;
+    }
+    .uk-input{
+        width: 100%;
+        height: 100%;
+        border: none;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.39);
+        border-radius: 5px;
+        padding: 5px;
+    }
+    .uk-input:hover, .uk-input:focus{
+        border: none;
+        border-bottom: 1px solid red;
+        outline: none;
+    }
+    .uk-margin-text{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .uk-textarea{
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.39);
+        border-radius: 5px;
+        padding: 5px;
+    }
+    .uk-textarea:hover, .uk-textarea:focus{
+        outline: none;
+        border: none;
+        border-bottom: 1px solid red;
     }
     .submit{
         width: 200px;
