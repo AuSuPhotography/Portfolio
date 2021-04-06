@@ -54,10 +54,15 @@ function changeTheme(){
         console.log("Black");
     }
     else{
-        $("#main1").addClass("ligth");
+        $("#main1").addClass("light");
         $("#main1").removeClass("dark");
-
         console.log("white");
     }
     console.log($("#Dark").is(":checked"),$("#Light").is(":checked"));
+}
+
+function changeColor(){
+    if($("#red-btn").is(":clicked")){
+        $("#class-red").style.color("")
+    }
 }
