@@ -146,8 +146,9 @@ html, body{
         margin-bottom: 25px;
     }
     .color-1{
+        background-color: rgb(151, 151, 151);
         border: 1px solid red;
-        border-bottom: 10px solid red;
+        border-bottom: 15px solid red;
         border-radius: 5px;
         width: 80%;
         height: 220px;
@@ -157,8 +158,9 @@ html, body{
         align-items: center;
     }
     .color-2{
+        background-color: rgb(151, 151, 151);
         border: 1px solid green;
-        border-bottom: 10px solid green;
+        border-bottom: 15px solid green;
         border-radius: 5px;
         width: 80%;
         height: 220px;
@@ -168,8 +170,9 @@ html, body{
         align-items: center;
     }
     .color-3{
+        background-color: rgb(151, 151, 151);
         border: 1px solid blue;
-        border-bottom: 10px solid blue;
+        border-bottom: 15px solid blue;
         border-radius: 5px;
         width: 80%;
         height: 220px;
@@ -179,8 +182,9 @@ html, body{
         align-items: center;
     }
     .color-4{
+        background-color: rgb(151, 151, 151);
         border: 1px solid yellow;
-        border-bottom: 10px solid yellow;
+        border-bottom: 15px solid yellow;
         border-radius: 5px;
         width: 80%;
         height: 220px;
@@ -190,9 +194,10 @@ html, body{
         align-items: center;
     }
     .color-5{
+        background-color: rgb(151, 151, 151);
         margin-top: 30px;
         border: 1px solid violet;
-        border-bottom: 10px solid violet;
+        border-bottom: 15px solid violet;
         border-radius: 5px;
         width: 80%;
         height: 220px;
@@ -202,9 +207,10 @@ html, body{
         align-items: center;
     }
     .color-6{
+        background-color: rgb(151, 151, 151);
         margin-top: 30px;
         border: 1px solid orange;
-        border-bottom: 10px solid orange;
+        border-bottom: 15px solid orange;
         border-radius: 5px;
         width: 80%;
         height: 220px;
@@ -214,9 +220,10 @@ html, body{
         align-items: center;
     }
     .color-7{
+        background-color: rgb(151, 151, 151);
         margin-top: 30px;
         border: 1px solid purple;
-        border-bottom: 10px solid purple;
+        border-bottom: 15px solid purple;
         border-radius: 5px;
         width: 80%;
         height: 220px;
@@ -226,9 +233,10 @@ html, body{
         align-items: center;
     }
     .color-8{
+        background-color: rgb(151, 151, 151);
         margin-top: 30px;
         border: 1px solid orangered;
-        border-bottom: 10px solid orangered;
+        border-bottom: 15px solid orangered;
         border-radius: 5px;
         width: 80%;
         height: 220px;
